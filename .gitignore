@@ -1,0 +1,36 @@
+/.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# IDE / editor
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Streamlit & cache
+.streamlit/
+.cache/
+
+# Model weights & large artifacts
+# Храним структуру папки models, но не загружаем крупные веса Surya в git
+backend/models/surya.366m.v1.pt
+*.ckpt
+
+# Uvicorn / coverage / test artifacts
+.pytest_cache/
+.coverage
+htmlcov/

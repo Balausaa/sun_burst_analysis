@@ -1,0 +1,19 @@
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+pydantic==2.9.2
+# Use a PyTorch version available on the current index.
+# If you need a specific CUDA build, install torch/torchvision separately
+# following the official PyTorch instructions.
+torch>=2.6.0
+torchvision>=0.21.0
+transformers>=4.46.0
+huggingface-hub>=0.25.0
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.14.1
+python-multipart==0.0.12
+Pillow==10.4.0
+streamlit==1.41.1
+plotly==5.24.1
+matplotlib==3.9.2
+streamlit-plotly-events==0.0.6
